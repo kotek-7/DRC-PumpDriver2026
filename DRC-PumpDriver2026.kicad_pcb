@@ -15386,7 +15386,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "POWER"
 			(at -1.919 0 270)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
