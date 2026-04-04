@@ -708,7 +708,7 @@
       {
         "filename": "DRC-PumpDriver2026.kicad_sch",
         "name": "DRC-PumpDriver2026",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "cf42be67-fab3-494c-b2b5-38aff4068810"
       }
     ],
     "used_designators": "",
@@ -717,7 +717,7 @@
   "sheets": [
     [
       "cf42be67-fab3-494c-b2b5-38aff4068810",
-      "Root"
+      "DRC-PumpDriver2026"
     ],
     [
       "267e9a6d-86bf-4b07-8799-417cb8de93f0",
