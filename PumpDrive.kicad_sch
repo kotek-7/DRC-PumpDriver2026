@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(uuid "5da89047-80d3-4a95-a271-72dfdd4d6530")
 	(paper "A4")
 	(lib_symbols
@@ -16,12 +16,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,8 +27,6 @@
 			)
 			(property "Value" "C_Small"
 				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,57 +36,47 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "C_Small_0_1"
@@ -125,7 +109,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -143,7 +127,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -172,12 +156,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at -1.27 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,8 +167,6 @@
 			)
 			(property "Value" "LED_Small"
 				(at -4.445 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -198,68 +176,56 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Light emitting diode, small symbol"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "LED_Small_0_1"
@@ -372,12 +338,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -7.112 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -387,8 +349,6 @@
 			)
 			(property "Value" "TLP2310"
 				(at 1.016 9.144 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -398,58 +358,48 @@
 			)
 			(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
 				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP2310_datasheet_en_20220913.pdf?did=29657&prodName=TLP2310"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "5-Mbps low-power non inverting photocouple, 3.75 kVrms, 2.7 - 5.5 Vdd, push-pull output"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Optocoupler high-speed Toshiba"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SO*4.55x3.7mm*P1.27mm*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "TLP2310_0_1"
@@ -767,6 +717,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
@@ -802,24 +770,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -833,12 +783,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q1"
 				(at 6.35 1.2701 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -848,8 +794,6 @@
 			)
 			(property "Value" "MTB7D0N6RJ3"
 				(at 6.35 -1.2699 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -859,79 +803,65 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "N-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Sim.Device" "NMOS"
 				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Sim.Type" "VDMOS"
 				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=D 2=G 3=S"
 				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "NMOS_0_1"
@@ -1170,12 +1100,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1184,8 +1110,6 @@
 			)
 			(property "Value" "R_Small"
 				(at 1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1194,57 +1118,47 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "R_Small_0_1"
@@ -1264,7 +1178,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1282,7 +1196,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1301,7 +1215,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
-			(power global)
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1312,23 +1226,17 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "+3.3V"
 				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1337,46 +1245,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "+3.3V_0_1"
@@ -1421,7 +1321,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1440,7 +1340,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+5VP"
-			(power global)
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1451,23 +1351,17 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "+5VP"
 				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1476,46 +1370,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5VP\""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "+5VP_0_1"
@@ -1560,7 +1446,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1579,7 +1465,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
-			(power global)
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1590,23 +1476,17 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "GNDPWR"
 				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1615,46 +1495,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global ground"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "GNDPWR_0_1"
@@ -1747,7 +1619,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2022,18 +1894,14 @@
 		(lib_id "Device:LED_Small")
 		(at 163.83 92.71 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7266faac-2738-4eed-b409-fd508c32497d")
 		(property "Reference" "D7"
 			(at 166.37 91.3764 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,8 +1911,6 @@
 		)
 		(property "Value" "LED"
 			(at 166.37 93.9164 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,46 +1920,38 @@
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 163.83 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
 			(at 163.83 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 163.83 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2135,29 +1993,23 @@
 		(lib_id "power:+3.3V")
 		(at 128.27 97.79 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b5f455-788a-4d62-bee2-1f76d349d042")
 		(property "Reference" "#PWR032"
 			(at 128.27 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
 			(at 128.27 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,35 +2018,29 @@
 		)
 		(property "Footprint" ""
 			(at 128.27 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 128.27 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 128.27 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2233,18 +2079,14 @@
 		(lib_id "Isolator:TLP2310")
 		(at 140.97 105.41 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74ff80a5-f3c2-4a55-8e09-767091e43fc7")
 		(property "Reference" "U4"
 			(at 138.43 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,8 +2096,6 @@
 		)
 		(property "Value" "TLP2348"
 			(at 138.43 94.996 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,36 +2105,30 @@
 		)
 		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
 			(at 140.97 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 140.97 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 140.97 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -2345,18 +2179,14 @@
 		(lib_id "lib:R_Small")
 		(at 127 110.49 270)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75815a46-ffd7-4baa-ba65-2169ab587b00")
 		(property "Reference" "R7"
 			(at 127 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,8 +2195,6 @@
 		)
 		(property "Value" "560"
 			(at 127 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,35 +2203,29 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 127 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 127 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 127 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2445,18 +2267,14 @@
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 161.29 105.41 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce68647-ce63-4cc6-9ade-898eb3fb6b3b")
 		(property "Reference" "Q1"
 			(at 167.64 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,8 +2284,6 @@
 		)
 		(property "Value" "MTB7D0N6RJ3"
 			(at 167.64 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,68 +2293,56 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 166.37 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 161.29 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 161.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" "NMOS"
 			(at 161.29 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Type" "VDMOS"
 			(at 161.29 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 161.29 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2583,29 +2387,23 @@
 		(lib_id "power:+5VP")
 		(at 140.97 81.28 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8208506d-910c-4d67-b9b6-e467587ac13d")
 		(property "Reference" "#PWR033"
 			(at 140.97 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "+5VP"
 			(at 140.97 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,35 +2412,29 @@
 		)
 		(property "Footprint" ""
 			(at 140.97 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 140.97 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
 			(at 140.97 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2681,29 +2473,23 @@
 		(lib_id "power:GNDPWR")
 		(at 140.97 120.65 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd204d71-d60d-46f9-8d95-e27bd1dd5ea9")
 		(property "Reference" "#PWR034"
 			(at 140.97 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "GNDPWR"
 			(at 140.843 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,35 +2498,29 @@
 		)
 		(property "Footprint" ""
 			(at 140.97 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 140.97 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 140.97 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2779,18 +2559,14 @@
 		(lib_id "Device:C_Small")
 		(at 146.05 88.9 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1f0fbf-4f57-4e4f-9fa4-b54cf1485a6f")
 		(property "Reference" "C15"
 			(at 148.59 87.6362 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,8 +2576,6 @@
 		)
 		(property "Value" "0.1u"
 			(at 148.59 90.1762 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,35 +2585,29 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2881,29 +2649,23 @@
 		(lib_id "power:+5VP")
 		(at 163.83 81.28 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d724b4bb-72e1-4d99-8f6f-dda9a570d80b")
 		(property "Reference" "#PWR036"
 			(at 163.83 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "+5VP"
 			(at 163.83 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,35 +2674,29 @@
 		)
 		(property "Footprint" ""
 			(at 163.83 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 163.83 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
 			(at 163.83 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2979,18 +2735,14 @@
 		(lib_id "lib:R_Small")
 		(at 163.83 87.63 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8c69518-cba4-43f4-960c-b9130a8dae1b")
 		(property "Reference" "R9"
 			(at 166.37 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,8 +2752,6 @@
 		)
 		(property "Value" "10k"
 			(at 166.37 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,35 +2761,29 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 163.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 163.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3081,29 +2825,23 @@
 		(lib_id "power:GNDPWR")
 		(at 146.05 91.44 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2282914-314b-48a5-bb4a-1949d6b515b1")
 		(property "Reference" "#PWR035"
 			(at 146.05 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "GNDPWR"
 			(at 148.59 92.5067 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,35 +2851,29 @@
 		)
 		(property "Footprint" ""
 			(at 146.05 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 146.05 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 146.05 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3180,18 +2912,14 @@
 		(lib_id "lib:R_Small")
 		(at 153.67 111.76 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f789ffc6-486a-4c56-8558-95f752ddb74c")
 		(property "Reference" "R8"
 			(at 156.21 110.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,8 +2929,6 @@
 		)
 		(property "Value" "10k"
 			(at 156.21 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,35 +2938,29 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
