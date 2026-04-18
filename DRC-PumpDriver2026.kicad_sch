@@ -3628,10 +3628,6 @@
 		(uuid "3380dc2e-323d-4795-b62b-dced8a41ac72")
 	)
 	(no_connect
-		(at 85.09 87.63)
-		(uuid "401d8272-4a06-4d74-878b-5c70862abf4c")
-	)
-	(no_connect
 		(at 85.09 67.31)
 		(uuid "5565e6d9-aa61-462d-b304-77a9911c049c")
 	)
@@ -3642,14 +3638,6 @@
 	(no_connect
 		(at 85.09 64.77)
 		(uuid "903ec4ea-82f5-48b6-92cd-53ff7ee483d9")
-	)
-	(no_connect
-		(at 85.09 90.17)
-		(uuid "c1c6c4ae-901c-41e0-aa9c-21e2cb986788")
-	)
-	(no_connect
-		(at 50.8 172.72)
-		(uuid "dae0aa8b-3168-438e-9319-8e670d1674b1")
 	)
 	(no_connect
 		(at 85.09 74.93)
@@ -3871,6 +3859,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 87.63) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439e1ecb-f429-4c96-bdf4-074eef8be061")
+	)
+	(wire
+		(pts
 			(xy 41.91 64.77) (xy 54.61 64.77)
 		)
 		(stroke
@@ -3911,6 +3909,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 170.18) (xy 48.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e810b66-c8b3-4add-8b2b-b753ebd25e87")
+	)
+	(wire
+		(pts
 			(xy 50.8 167.64) (xy 59.69 167.64)
 		)
 		(stroke
@@ -3921,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 95.25 92.71)
+			(xy 85.09 92.71) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3941,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 82.55) (xy 95.25 82.55)
+			(xy 85.09 82.55) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4141,7 +4149,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 102.87) (xy 95.25 102.87)
+			(xy 85.09 102.87) (xy 99.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 95.25 80.01)
+			(xy 85.09 80.01) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4301,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 100.33) (xy 95.25 100.33)
+			(xy 85.09 100.33) (xy 99.06 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4471,6 +4479,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 90.17) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c19a8e-8c14-41d8-a76a-8d233d5ee09c")
+	)
+	(wire
+		(pts
 			(xy 72.39 46.99) (xy 72.39 57.15)
 		)
 		(stroke
@@ -4621,6 +4639,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 172.72) (xy 59.69 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb57581a-25cb-424b-bf58-a35d19f636b4")
+	)
+	(wire
+		(pts
 			(xy 96.52 171.45) (xy 96.52 173.99)
 		)
 		(stroke
@@ -4711,16 +4739,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 172.72) (xy 59.69 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a5afe0-64c5-4620-b331-50e88dcf2965")
-	)
-	(wire
-		(pts
 			(xy 30.48 31.75) (xy 30.48 34.29)
 		)
 		(stroke
@@ -4741,7 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 95.25 97.79)
+			(xy 85.09 97.79) (xy 99.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4781,7 +4799,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 95.25) (xy 95.25 95.25)
+			(xy 85.09 95.25) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4841,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 95.25 77.47)
+			(xy 85.09 77.47) (xy 99.06 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4990,7 +5008,7 @@
 		(uuid "0a4b0a19-8c75-4f79-b646-39c81acb8cc3")
 	)
 	(label "LED_BI"
-		(at 95.25 77.47 180)
+		(at 99.06 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5040,7 +5058,7 @@
 		(uuid "1bbe5cc7-da8b-41c8-a167-a525274d03c4")
 	)
 	(label "SWCLK"
-		(at 95.25 100.33 180)
+		(at 99.06 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5130,7 +5148,7 @@
 		(uuid "37f76e45-56bb-4233-93e6-0df875c66c2a")
 	)
 	(label "DIP3"
-		(at 95.25 82.55 180)
+		(at 99.06 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5160,7 +5178,7 @@
 		(uuid "51bc8352-4b22-4093-9d80-75bb8471b8fc")
 	)
 	(label "PUMP6_EN"
-		(at 95.25 102.87 180)
+		(at 99.06 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5210,7 +5228,7 @@
 		(uuid "6dd8ca09-decf-4db6-8bc8-a2da354eab7b")
 	)
 	(label "CAN_TX"
-		(at 95.25 92.71 180)
+		(at 99.06 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5228,6 +5246,16 @@
 			(justify left bottom)
 		)
 		(uuid "792fc41c-0c17-4057-8b1a-7242039d4888")
+	)
+	(label "USART1_TX"
+		(at 99.06 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "832fd667-1c0b-4474-a649-6dd2cd6679c3")
 	)
 	(label "PUMP1_DRV"
 		(at 182.88 41.91 180)
@@ -5300,7 +5328,7 @@
 		(uuid "a0f3d2ca-ff42-43ec-9cf6-bb135b986ebe")
 	)
 	(label "SWDIO"
-		(at 95.25 97.79 180)
+		(at 99.06 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5329,6 +5357,16 @@
 		)
 		(uuid "b1fcb2ed-a693-447b-99f4-07134d5de6ad")
 	)
+	(label "USART1_RX"
+		(at 99.06 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b52ce543-5d63-4cb6-9b20-791d042d4314")
+	)
 	(label "CAN_L"
 		(at 66.04 139.7 180)
 		(effects
@@ -5338,16 +5376,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba39c602-0685-44cd-9d66-dcde4aa871e6")
-	)
-	(label "SWO"
-		(at 50.8 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "baa3a766-642c-40f5-b851-f54a840d07f7")
 	)
 	(label "PUMP6_DRV"
 		(at 182.88 105.41 180)
@@ -5360,7 +5388,7 @@
 		(uuid "bbc0b1e7-8ec4-4e2a-b8a4-e4fca89fe44f")
 	)
 	(label "CAN_RX"
-		(at 95.25 95.25 180)
+		(at 99.06 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5380,7 +5408,7 @@
 		(uuid "c761a78d-53b7-4d2e-9bbd-5c0a4dc4b4d0")
 	)
 	(label "DIP4"
-		(at 95.25 80.01 180)
+		(at 99.06 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5545,7 +5573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b680ea-7109-45f9-8132-a612d5535976")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 35.56 186.69 0)
 			(effects
 				(font
@@ -5595,7 +5623,7 @@
 		(instances
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6324,7 +6352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bab8adb-2fdf-4a9c-9419-985efae3b4ec")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 27.94 25.4 0)
 			(effects
 				(font
@@ -6374,7 +6402,7 @@
 		(instances
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6471,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -7169,7 +7197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "719326d8-9013-4066-b82a-86a26214d539")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 55.88 25.4 0)
 			(effects
 				(font
@@ -7219,7 +7247,7 @@
 		(instances
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7642,7 +7670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6dfcd60-9fc1-4511-9741-5c5387e50696")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 41.91 82.55 0)
 			(effects
 				(font
@@ -7692,7 +7720,7 @@
 		(instances
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8583,7 +8611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a151c7-5664-4ee6-8199-002e6eaec8c3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 35.56 176.53 0)
 			(effects
 				(font
@@ -8633,7 +8661,7 @@
 		(instances
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8703,6 +8731,73 @@
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc7dbd93-2b65-4fda-89a5-562f6dbff624")
+		(property "Reference" "#PWR050"
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.72 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7093f55-a905-4d6c-bf86-bf4f4f184c16")
+		)
+		(instances
+			(project "DRC-PumpDriver2026"
+				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9251,7 +9346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8c62007-42c1-45b3-80b0-03042c96b01a")
-		(property "Reference" "U9"
+		(property "Reference" "U1"
 			(at 41.91 16.51 0)
 			(effects
 				(font
@@ -9312,7 +9407,7 @@
 		(instances
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
-					(reference "U9")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9394,7 +9489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe5484ea-8ad8-4c3f-ace6-dc591cb20f74")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -9444,7 +9539,7 @@
 		(instances
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9845,6 +9940,68 @@
 			(project "DRC-PumpDriver2026"
 				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 85.09)
+		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e97430ed-e72b-4242-af08-ae17f1444166")
+		(property "Sheetname" "USB_UART"
+			(at 104.14 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC_UART.kicad_sch"
+			(at 104.14 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 104.14 87.63 180)
+			(uuid "f2b678e3-f772-495b-adfb-3f98614dce33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" output
+			(at 104.14 90.17 180)
+			(uuid "c2204325-b7ec-430d-b074-b002eb098b65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DRC-PumpDriver2026"
+				(path "/cf42be67-fab3-494c-b2b5-38aff4068810"
+					(page "9")
 				)
 			)
 		)

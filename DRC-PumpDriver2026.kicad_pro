@@ -712,6 +712,10 @@
     [
       "3a4a56d4-04c8-4cdb-9269-7809d127a6ab",
       "CAN"
+    ],
+    [
+      "e97430ed-e72b-4242-af08-ae17f1444166",
+      "USB_UART"
     ]
   ],
   "text_variables": {}
