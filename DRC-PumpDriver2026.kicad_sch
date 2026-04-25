@@ -6345,7 +6345,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 27.94 21.59 0)
+		(at 55.88 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6353,7 +6353,7 @@
 		(dnp no)
 		(uuid "3bab8adb-2fdf-4a9c-9419-985efae3b4ec")
 		(property "Reference" "#PWR01"
-			(at 27.94 25.4 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6362,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 29.464 17.78 0)
+			(at 57.404 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 21.59 0)
+			(at 55.88 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 21.59 0)
+			(at 55.88 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 27.94 21.59 0)
+			(at 55.88 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7190,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 55.88 21.59 0)
+		(at 27.94 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7198,7 +7198,7 @@
 		(dnp no)
 		(uuid "719326d8-9013-4066-b82a-86a26214d539")
 		(property "Reference" "#PWR07"
-			(at 55.88 25.4 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7207,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 54.102 18.288 0)
+			(at 26.162 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 21.59 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 21.59 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 21.59 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
