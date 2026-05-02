@@ -22652,7 +22652,7 @@
 	(gr_text "${REFERENCE}"
 		(at 128.27 86.7575 0)
 		(layer "B.Fab")
-		(uuid "350bda99-56f2-4c9f-a6bb-3b080cb09a83")
+		(uuid "3d345d2b-5372-4089-813b-74931e2634c5")
 		(effects
 			(font
 				(size 0.5 0.5)
